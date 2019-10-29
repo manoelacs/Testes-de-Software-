@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04db2d4b-c7c0-4528-949a-9eda8e786ffa" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SRUCGE98AAMOXlM1OGnzqPgfCy" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android JUnit.ReaderTest.fileMaiorque4096">
+    <configuration name="ReaderTest.fileMaiorque4096" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aula4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ufal.ic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ufal.ic" />
+      <option name="MAIN_CLASS_NAME" value="br.ufal.ic.ReaderTest" />
+      <option name="METHOD_NAME" value="fileMaiorque4096" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReaderTest.textIsCorret" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aula4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ufal.ic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ufal.ic" />
+      <option name="MAIN_CLASS_NAME" value="br.ufal.ic.ReaderTest" />
+      <option name="METHOD_NAME" value="textIsCorret" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReaderTest.fileDoesNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aula4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ufal.ic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ufal.ic" />
+      <option name="MAIN_CLASS_NAME" value="br.ufal.ic.ReaderTest" />
+      <option name="METHOD_NAME" value="fileDoesNotExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.ReaderTest.fileMaiorque4096" />
+        <item itemvalue="Android JUnit.ReaderTest.textIsCorret" />
+        <item itemvalue="JUnit.ReaderTest.fileDoesNotExist" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04db2d4b-c7c0-4528-949a-9eda8e786ffa" name="Default Changelist" comment="" />
+      <created>1571525772721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571525772721</updated>
+    </task>
+    <servers />
+  </component>
+</project>
