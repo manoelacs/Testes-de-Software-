@@ -15,7 +15,6 @@ import javax.validation.constraints.AssertTrue;
 import java.net.URL;
 
 public class CEPClientTest {
-    private Cliente cliente ;
     @BeforeEach
     public void start(){
         client.cepWebBuscar(new Address("57072090"));
@@ -37,7 +36,7 @@ public class CEPClientTest {
     @Test
     public void cepWebBuscarTest(){
 
-            address = new Address("57072090")
+            address =new Address("57072090")
             address2 = new Address("57072090")
             Address address3 = new Address("57070442");
 
