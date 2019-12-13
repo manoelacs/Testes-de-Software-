@@ -1,0 +1,5 @@
+<root>
+    <item name='sun.awt.X11.XTextFieldPeer'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
