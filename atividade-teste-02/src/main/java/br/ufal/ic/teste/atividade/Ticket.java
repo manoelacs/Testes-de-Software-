@@ -66,9 +66,9 @@ public class Ticket {
 
         long diffTime = Long.MAX_VALUE;
 
-        if (waitingTime != null) {
+        if (waitingTime != null) { // hora que foi entregue ao motoqueiro para entrega for diferente de nulo
 
-            diffTime = waitingTime - startTime + TOLERANCE;
+            diffTime = waitingTime - startTime + TOLERANCE;  // o tempo da hora que iniciou ate a hora que o motoquero foi entregar o pedido mais a tolerencia de 2min
         }
 
         checkPhoneTime();
@@ -80,7 +80,7 @@ public class Ticket {
         return this;
     }
 
-    private void checkPhoneTime() {
+    private void checkPhoneTime() { // se a hora que o pedido foi feito menos a hora que começou for maior que 5min
 
         if (phoneTime != null && (phoneTime - startTime) > ATTENDING_TOLERANCE) {
             

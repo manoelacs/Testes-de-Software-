@@ -19,16 +19,18 @@ public class TicketDBTest {
     void AddVariosTicketsMesmoNumero(){
         Ticket t1  = new Ticket();
         Ticket t2  = new Ticket();
+        //int n =100;
 
-        while (100){
-            ticketDB.update( new Ticket(0, 1, 0L, 0L, 0L));
-        }
-       /* t1 = new Ticket(0, 1, 0L, 0L, 0L);
-        ticketDB.update(t1);*/
-        t2 = new Ticket( 0, 1, 0L, 0L, 0L);
+
+        //ticketDB.update( new Ticket(0, 1, 0L, 0L, 0L));
+
+       t1 = new Ticket(0, 1, 0L, 0L, 0L);
+        ticketDB.update(t1);
+        t2 = new Ticket( 0, 3, 0L, 0L, 0L);
 
         ticketDB.update(t2);
         List<Ticket> lt = ticketDB.getTickets();
+        assertTrue(t1.getNumber() == t1.getNumber());
 
     }
 
