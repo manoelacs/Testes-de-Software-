@@ -15,25 +15,14 @@ import javax.validation.constraints.AssertTrue;
 import java.net.URL;
 
 public class CEPClientTest {
-    private Cliente cliente ;
+    private  CEPClient client ;
+
     @BeforeEach
     public void start(){
         client.cepWebBuscar(new Address("57072090"));
-        CEPClient client = new CEPClient();
         Address address = new Address();
         Address address2 = new Address();
     }
-
-
-
-       /*  public void getAddressTest() throws JSONException {
-       JSONObject data =  getRESTData("/friends/367.json");
-        String expected = "{friends:[{id:123,name:\"Corby Page\"}"
-                + ",{id:456,name:\"Solomon Duskis\"}]}";
-        JSONAssert.assertEquals(expected, data, false);}*/
-
-
-
     @Test
     public void cepWebBuscarTest(){
 

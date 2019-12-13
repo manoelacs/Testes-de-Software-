@@ -20,7 +20,7 @@ public class TicketDBTest {
         Ticket t1  = new Ticket();
         Ticket t2  = new Ticket();
 
-        while (true){
+        while (100){
             ticketDB.update( new Ticket(0, 1, 0L, 0L, 0L));
         }
        /* t1 = new Ticket(0, 1, 0L, 0L, 0L);
@@ -29,7 +29,7 @@ public class TicketDBTest {
 
         ticketDB.update(t2);
         List<Ticket> lt = ticketDB.getTickets();
-        //this(null, number, work_shift, startTime, null, null, null, waitingTime, endTime, 0d, 0d, 0d, null);
+
     }
 
     @Test
